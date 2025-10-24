@@ -1,0 +1,101 @@
+@media (max-width: 600px) {
+    .question-box {
+        max-width: 98vw;
+        padding: 18px 6vw 18px 6vw;
+        margin: 16px 0;
+        border-radius: 10px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.10);
+    }
+    .question {
+        font-size: 1em;
+        margin-bottom: 12px;
+    }
+    .options label {
+        font-size: 0.98em;
+        margin-bottom: 10px;
+    }
+    .button-row {
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 18px;
+    }
+    #Mail,
+    #Score,
+    #answers,
+    #certifiacte {
+        width: 100%;
+        font-size: 1em;
+        padding: 10px 0;
+    }
+    body {
+        padding: 0;
+        min-height: 100vh;
+        justify-content: flex-start;
+    }
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+
+#Mail,
+#Score,
+#answers,
+#certifiacte {
+    padding: 8px 22px;
+    border: none;
+    border-radius: 6px;
+    background: #4f8cff;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(79, 140, 255, 0.08);
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#Mail:hover,
+#Score:hover,
+#answers:hover {
+    background: #2563eb;
+}
+
+.question-box {
+    width: 100%;
+    max-width: 480px;
+    margin: 32px auto;
+    padding: 32px 36px 28px 36px;
+    background: rgba(255, 255, 255, 0.97);
+    border-radius: 18px;
+    box-shadow: 0 6px 32px rgba(0, 0, 0, 0.13);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    border: 1.5px solid #e0e7ff;
+}
+
+.question {
+    font-size: 1.18em;
+    margin-bottom: 18px;
+    font-weight: 600;
+    color: #2d3a4a;
+}
+
+.options label {
+    display: block;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #3a3a3a;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #4f8cff 0%, #e0e7ff 100%);
+}
